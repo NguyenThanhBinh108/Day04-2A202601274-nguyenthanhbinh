@@ -1,0 +1,26 @@
+{
+  "version": "v3",
+  "artifact_version": "v3+p1cbd3bd8bde0+tc469f539066a",
+  "provider": "openrouter",
+  "timestamp": "20260729T171454",
+  "query": "Tin tức AI hôm nay có gì?",
+  "assistant_text": "Hiện tại, tôi không thể truy cập thông tin tin tức AI hôm nay do một lỗi kỹ thuật. Bạn có muốn tôi thử lại sau hoặc tìm kiếm thông tin khác không?",
+  "tool_events": [
+    {
+      "tool": "lookup",
+      "args": {
+        "query": "AI",
+        "topic": "news",
+        "timeframe": "day"
+      },
+      "result": {
+        "tool": "web_search",
+        "error": "RuntimeError",
+        "message": "Missing TAVILY_API_KEY env var"
+      }
+    }
+  ],
+  "rounds": 2,
+  "status": "answered",
+  "elapsed_s": 6.38
+}

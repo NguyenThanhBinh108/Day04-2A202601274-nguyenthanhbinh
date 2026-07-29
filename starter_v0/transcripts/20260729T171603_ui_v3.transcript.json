@@ -1,0 +1,26 @@
+{
+  "version": "v3",
+  "artifact_version": "v3+p1cbd3bd8bde0+tc469f539066a",
+  "provider": "openrouter",
+  "timestamp": "20260729T171603",
+  "query": "Mọi người nói gì về GPT-5 trên Twitter?",
+  "assistant_text": "Hiện tại, tôi không thể truy cập thông tin về GPT-5 trên Twitter do một lỗi kỹ thuật. Bạn có muốn tôi thử lại sau hoặc tìm kiếm thông tin khác không?",
+  "tool_events": [
+    {
+      "tool": "social_search",
+      "args": {
+        "query": "GPT-5",
+        "search_type": "Latest",
+        "limit": 5
+      },
+      "result": {
+        "tool": "search_tweets",
+        "error": "RuntimeError",
+        "message": "Missing RAPIDAPI_KEY env var"
+      }
+    }
+  ],
+  "rounds": 2,
+  "status": "answered",
+  "elapsed_s": 4.44
+}

@@ -170,15 +170,21 @@ with st.sidebar:
 
     # Quick queries
     st.markdown("### 💡 Quick Queries")
+    # Các câu này đều đã kiểm chứng truy xuất được trên company_policy.
+    # Không đưa câu cần Twitter/web search vào đây: RAPIDAPI/TAVILY/FIRECRAWL
+    # chưa có key nên những tool đó sẽ lỗi và làm hỏng demo.
     quick_queries = [
-        "Tweet mới nhất của Sam Altman?",
-        "Tin tức AI hôm nay có gì?",
-        "Tóm tắt bài: https://openai.com/blog",
-        "Mọi người nói gì về GPT-5 trên Twitter?",
-        "Chính sách đạo văn của VinUni thế nào?",
+        "Vi phạm liêm chính học thuật Tier 3 bị xử lý thế nào?",
+        "Sinh viên có được dùng ChatGPT làm bài tập không?",
+        "Học bổng đầu vào cần duy trì GPA bao nhiêu?",
+        "Quy định điểm danh và nghỉ học của VinUni ra sao?",
+        "Hạn nộp hồ sơ tuyển sinh là khi nào?",
+        "So sánh quy định học phí với quy định học bổng",
+        "Điều kiện xét tốt nghiệp và cấp bằng gồm những gì?",
+        "Tóm tắt 5 tweet mới nhất giúp mình",
+        "Đăng bản tin này lên Telegram giúp mình",
+        "Giải giúp mình nguyên hàm của x^2",
         "Thời tiết Hà Nội hôm nay?",
-        "Gửi digest lên Telegram nhé",
-        "Giải bài toán tích phân x^2",
     ]
     selected_quick = st.selectbox(
         "Chọn câu mẫu",
@@ -418,7 +424,7 @@ if send_quick and selected_quick != "—":
     st.rerun()
 
 # 2) Chat input box
-user_input = st.chat_input("Nhập câu hỏi... (VD: 'Tin AI hôm nay?', 'Tweet của Elon Musk?')")
+user_input = st.chat_input("Hỏi về quy định VinUni... (VD: 'Đạo văn bị xử lý thế nào?', 'Dùng ChatGPT làm bài có được không?')")
 if user_input:
     _run_agent(user_input)
     st.rerun()

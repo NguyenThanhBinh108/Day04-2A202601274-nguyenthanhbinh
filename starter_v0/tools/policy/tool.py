@@ -90,6 +90,9 @@ def search_company_policy(query: str = "", policy_area: str = "all", top_k: int 
                     "section": section_title,
                     "facts": facts,
                     "source": meta.get("source") or "Company Policy Handbook",
+                    # Frontmatter cua moi tai lieu deu co source_url. Khong tra truong nay ra
+                    # thi model khong co gi de trich dan ngoai chuoi `source` chung chung.
+                    "source_url": meta.get("source_url") or None,
                     "effective_date": str(meta.get("effective_date")) if meta.get("effective_date") is not None else None,
                     "tags": tags,
                     "score": score,

@@ -189,10 +189,34 @@ tools:
       Use when: user asks about VinUni academic policy, attendance, grading, scholarships, conduct, admissions, IT policy.
       Do NOT use for general web search (use lookup instead).
       policy_area values: academic_integrity, grading_policy, student_conduct, attendance_policy, tuition_fees, scholarship_policy, admissions_policy, research_policy, it_usage_policy, library_policy, student_services, general_policy.
+      CITATION — bat buoc: moi ket qua tra ve co doc_id, section, source_url va effective_date.
+      Sau MOI y ban rut ra tu mot section, chen ngay trich dan theo dung mau:
+      [<title> — <section>](<source_url>) (hieu luc <effective_date>).
+      Phai dung dung section da lay y do, khong gop nhieu y vao mot trich dan chung, va khong
+      duoc viet nguon chung chung kieu "VinUniversity Official Website" hay "theo chinh sach cua truong".
+      Chi trich dan doc_id/section/source_url co that trong ket qua tra ve — tuyet doi khong tu bia URL.
+      URL phai duoc SAO CHEP NGUYEN VAN tu truong source_url, giu du duong dan.
+      Dung: https://policy.vinuni.edu.vn/all-policies/student-academic-integrity/
+      SAI: https://policy.vinuni.edu.vn (rut gon ve ten mien lam mat cho tro toi tai lieu).
     parameters:
       type: object
       properties:
-        query: {type: string, description: "Policy search query (e.g. 'đạo văn Tier 3', 'học phí 2024', 'dùng ChatGPT làm bài')"}
+        query:
+          type: string
+          description: >-
+            Search keywords, MUST be written in English even when the user asks in Vietnamese.
+            The policy documents are indexed in English; a Vietnamese query only matches the
+            document-level tags, so every section scores the same and the ranking becomes random.
+            Write 4-6 specific keywords, not a 2-word gist. Ranking is keyword-overlap based,
+            so a thin query matches generic sections like "Purpose" or "Definitions" in the
+            wrong document. Always include the word for the OUTCOME the user is asking about
+            — sanctions, penalty, tier, requirement, deadline, procedure, eligibility, refund.
+            'đạo văn bị xử lý thế nào' -> 'plagiarism violation sanctions penalty tier'
+            (NOT 'plagiarism handling' — that returns the research policy's Purpose section).
+            'dùng ChatGPT làm bài' -> 'generative AI student use assignment permitted'.
+            'học bổng cần GPA bao nhiêu' -> 'maintain entry scholarship GPA requirement criteria'.
+            'điểm danh nghỉ học' -> 'attendance absence leave requirement percentage'.
+            'khi nào hết hạn nộp hồ sơ' -> 'admission application deadline date'.
         policy_area: {type: string, enum: [all, academic_integrity, grading_policy, student_conduct, attendance_policy, tuition_fees, scholarship_policy, admissions_policy, research_policy, it_usage_policy, library_policy, student_services, general_policy], default: "all", description: "Filter by policy area; use 'all' if unsure"}
         top_k: {type: integer, default: 3, description: "Number of matching policy sections to return"}
       required: [query]
