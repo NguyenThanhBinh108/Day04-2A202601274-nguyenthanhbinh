@@ -1,3 +1,4 @@
+
 # Day 04 Lab v2 Report — Research Agent
 
 > File này gồm 2 phần, deadline khác nhau:
@@ -11,13 +12,13 @@
 - Provider/model: `openrouter` / `openai/gpt-4o-mini`
 - Members:
 
-| STT | Họ và tên        | MSSV         | Role                                        | Phụ trách chính                                                    |
-| --- | ------------------- | ------------ | ------------------------------------------- | --------------------------------------------------------------------- |
-| 1   | Nguyễn Thanh Bình | 2A202601274  | Team Lead / Prompt & Tool-Declaration Owner | `system_prompt.md`, `tools.yaml`, run v0–v3, `version_log.csv` |
-| 2   | Trần Chí Vũ      | 2A202601044  | Tool Engineer                               | Tool mới +`TOOL.md` + đăng ký + quicktest                       |
-| 3   | Trịnh Hải Đăng  | 2A202601602  | Eval Engineer / Failure Analyst             | 10 case`eval_group.json`, failure analysis                          |
-| 4   | Đỗ Văn Linh      | 2A202601190  | UI & Deploy Engineer                        | `app.py`, tool trace UI, deploy URL, live chat                      |
-| 5   | Đỗ Thu Liễu      | 2A202601898  | Evidence & Report Owner                     | `REPORT.md` A+B, transcripts, rehearsal, gate nộp                  |
+| STT | Họ và tên        | MSSV        | Role                                        | Phụ trách chính                                                    |
+| --- | ------------------- | ----------- | ------------------------------------------- | --------------------------------------------------------------------- |
+| 1   | Nguyễn Thanh Bình | 2A202601274 | Team Lead / Prompt & Tool-Declaration Owner | `system_prompt.md`, `tools.yaml`, run v0–v3, `version_log.csv` |
+| 2   | Trần Chí Vũ      | 2A202601044 | Tool Engineer                               | Tool mới +`TOOL.md` + đăng ký + quicktest                       |
+| 3   | Trịnh Hải Đăng  | 2A202601602 | Eval Engineer / Failure Analyst             | 10 case`eval_group.json`, failure analysis                          |
+| 4   | Đỗ Văn Linh      | 2A202601190 | UI & Deploy Engineer                        | `app.py`, tool trace UI, deploy URL, live chat                      |
+| 5   | Đỗ Thu Liễu      | 2A202601898 | Evidence & Report Owner                     | `REPORT.md` A+B, transcripts, rehearsal, gate nộp                  |
 
 > Phân công chi tiết theo checkpoint: xem [TEAM.md](TEAM.md).
 

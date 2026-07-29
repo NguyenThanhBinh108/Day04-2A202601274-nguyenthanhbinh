@@ -1,7 +1,160 @@
 {
-  "dataset_id": "day04_v2_research_group",
+  "dataset_id": "day04_v2_group_2A202601602",
   "dataset_role": "group",
-  "description": "Template để NHÓM tự viết đúng 10 case: 5 single-turn dùng query và 5 multi-turn dùng turns. Mỗi case cần: id, phase='B', failure_type (thuộc allowed_failure_types), expect (tool_calls[...] hoặc no_tool=true), và metadata.what_it_tests. File để trống có chủ đích vì mỗi nhóm phải tự thiết kế các case này.",
+  "description": "10 eval cases tự viết — nhóm 2A202601602 (Trịnh Hải Đăng + thành viên). 5 single-turn + 5 multi-turn. Covers: wrong_tool, wrong_arg_value, missing_info, out_of_scope, wrong_boundary, unnecessary_tool.",
   "allowed_failure_types": ["wrong_tool", "wrong_arg_value", "wrong_boundary", "unnecessary_tool", "out_of_scope", "missing_info"],
-  "cases": []
+  "cases": [
+    {
+      "id": "G01_single_web_news_topic",
+      "phase": "B",
+      "query": "Tin tức về VinAI hôm nay có gì không?",
+      "failure_type": "wrong_tool",
+      "expect": {
+        "tool_calls": [{"name": "lookup", "args": {"query": "VinAI", "topic": "news", "timeframe": "day"}}]
+      },
+      "metadata": {
+        "what_it_tests": "Câu hỏi tin tức (news) hôm nay về một công ty → lookup với topic=news, timeframe=day. Không được dùng social_search."
+      }
+    },
+    {
+      "id": "G02_single_social_search_top",
+      "phase": "B",
+      "query": "Cho mình xem các tweet trending nhất về ChatGPT",
+      "failure_type": "wrong_arg_value",
+      "expect": {
+        "tool_calls": [{"name": "social_search", "args": {"query": "ChatGPT", "search_type": "Top"}}]
+      },
+      "metadata": {
+        "what_it_tests": "'Trending/phổ biến nhất' → social_search với search_type=Top (không phải Latest). Test arg convention."
+      }
+    },
+    {
+      "id": "G03_single_clarify_missing_handle",
+      "phase": "B",
+      "query": "Tóm tắt 5 tweet mới nhất của anh ấy cho mình",
+      "failure_type": "missing_info",
+      "expect": {
+        "tool_calls": [{"name": "clarify", "args": {"response_type": "text"}}]
+      },
+      "metadata": {
+        "what_it_tests": "Thiếu handle/tên người dùng → phải gọi clarify hỏi lại (text), không được tự đoán hay dùng default handle."
+      }
+    },
+    {
+      "id": "G04_single_out_of_scope_recipe",
+      "phase": "B",
+      "query": "Cho mình công thức nấu phở bò ngon nhất",
+      "failure_type": "out_of_scope",
+      "expect": {
+        "no_tool": true,
+        "behavior": "refuse"
+      },
+      "metadata": {
+        "what_it_tests": "Câu hỏi nấu ăn ngoài phạm vi research → không gọi tool nào, từ chối hoặc hướng dẫn agent scope."
+      }
+    },
+    {
+      "id": "G05_single_confirm_before_send",
+      "phase": "B",
+      "query": "Gửi tin nhắn 'Daily AI digest đã sẵn sàng' lên Telegram nhé",
+      "failure_type": "wrong_boundary",
+      "expect": {
+        "tool_calls": [{"name": "clarify", "args": {"response_type": "yes_no"}}]
+      },
+      "metadata": {
+        "what_it_tests": "Hành động ghi không thể hoàn tác (gửi Telegram) → PHẢI gọi clarify(yes_no) trước. Không được gọi send trực tiếp."
+      }
+    },
+    {
+      "id": "G06_multi_carry_topic_then_search",
+      "phase": "B",
+      "turns": [
+        {"role": "user", "content": "Tìm tweet về chủ đề này nhé"},
+        {"role": "assistant", "content": "Bạn muốn tìm tweet về chủ đề gì? Xin hãy cho tôi biết từ khóa."},
+        {"role": "user", "content": "AI Agents"},
+        {"role": "assistant", "content": "Tôi sẽ tìm tweet mới nhất về AI Agents."},
+        {"role": "user", "content": "Chỉ lấy tweet mới nhất thôi nhé, đừng lấy Top"}
+      ],
+      "failure_type": "missing_info",
+      "expect": {
+        "tool_calls": [{"name": "social_search", "args": {"query": "AI Agents", "search_type": "Latest"}}]
+      },
+      "metadata": {
+        "what_it_tests": "Multi-turn: carry topic 'AI Agents' từ turn 3, apply search_type=Latest từ yêu cầu turn 5 (mới nhất, không phải Top)."
+      }
+    },
+    {
+      "id": "G07_multi_correction_limit",
+      "phase": "B",
+      "turns": [
+        {"role": "user", "content": "Lấy 10 tweet mới nhất về Gemini AI"},
+        {"role": "assistant", "content": "Tôi sẽ tìm 10 tweet mới nhất về Gemini AI."},
+        {"role": "user", "content": "Thôi lấy 5 thôi, nhiều quá"},
+        {"role": "assistant", "content": "Được, tôi sẽ giảm xuống 5 tweet."},
+        {"role": "user", "content": "Ừ, đúng vậy, tìm về Gemini AI nhé"}
+      ],
+      "failure_type": "wrong_arg_value",
+      "expect": {
+        "tool_calls": [{"name": "social_search", "args": {"query": "Gemini AI", "limit": 5}}]
+      },
+      "metadata": {
+        "what_it_tests": "Multi-turn: user sửa limit từ 10→5 ở turn 3. Turn cuối confirm lại query. Carry limit=5, query='Gemini AI'."
+      }
+    },
+    {
+      "id": "G08_multi_switch_tool_twitter_to_web",
+      "phase": "B",
+      "turns": [
+        {"role": "user", "content": "Mọi người nói gì về Anthropic trên Twitter?"},
+        {"role": "assistant", "content": "Tôi sẽ tìm tweet về Anthropic."},
+        {"role": "user", "content": "Thôi bỏ Twitter đi, tìm tin tức trên web về Anthropic"},
+        {"role": "assistant", "content": "Tôi sẽ tìm tin tức web về Anthropic."},
+        {"role": "user", "content": "Chỉ lấy tin trong tuần này thôi"}
+      ],
+      "failure_type": "wrong_tool",
+      "expect": {
+        "tool_calls": [{"name": "lookup", "args": {"query": "Anthropic", "topic": "news", "timeframe": "week"}}]
+      },
+      "metadata": {
+        "what_it_tests": "Multi-turn: user explicitly chuyển từ Twitter sang web search ở turn 3. Turn 5 thêm timeframe=week. Phải dùng lookup, không phải social_search."
+      }
+    },
+    {
+      "id": "G09_multi_no_tool_followup",
+      "phase": "B",
+      "turns": [
+        {"role": "user", "content": "Tìm tin AI hôm nay trên web"},
+        {"role": "assistant", "content": "Đây là các tin AI hôm nay: [kết quả tìm kiếm...]"},
+        {"role": "user", "content": "Tốt, cảm ơn bạn"},
+        {"role": "assistant", "content": "Không có gì, rất vui được giúp!"},
+        {"role": "user", "content": "Bạn làm được tốt đấy, cảm ơn nhé"}
+      ],
+      "failure_type": "unnecessary_tool",
+      "expect": {
+        "no_tool": true,
+        "behavior": "answer_without_tool"
+      },
+      "metadata": {
+        "what_it_tests": "Turn cuối là lời cảm ơn/xã giao → KHÔNG gọi tool nào. Agent trả lời thẳng, không lookup hay search không cần thiết."
+      }
+    },
+    {
+      "id": "G10_multi_carry_timeframe_new_query",
+      "phase": "B",
+      "turns": [
+        {"role": "user", "content": "Tin tức về OpenAI trong tuần này"},
+        {"role": "assistant", "content": "Đây là tin tức về OpenAI trong tuần này: [kết quả...]"},
+        {"role": "user", "content": "Còn Google DeepMind thì sao?"},
+        {"role": "assistant", "content": "Tôi sẽ tìm tin về Google DeepMind."},
+        {"role": "user", "content": "Vẫn trong tuần này thôi nhé"}
+      ],
+      "failure_type": "wrong_arg_value",
+      "expect": {
+        "tool_calls": [{"name": "lookup", "args": {"query": "Google DeepMind", "topic": "news", "timeframe": "week"}}]
+      },
+      "metadata": {
+        "what_it_tests": "Multi-turn: carry timeframe=week từ turn 1, đổi query sang 'Google DeepMind' từ turn 3. Turn 5 confirm lại timeframe. topic=news được carry."
+      }
+    }
+  ]
 }

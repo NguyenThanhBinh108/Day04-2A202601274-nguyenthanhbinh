@@ -6,3 +6,9 @@ __pycache__/
 .env.*
 !.env.example
 arxiv_papers/
+
+# Keep directory structure but ignore generated output files
+# (remove these lines if you want to commit runs/transcripts for submission)
+# runs/*.json
+# transcripts/*.json
+# analysis/*.csv
