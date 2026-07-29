@@ -1,0 +1,1073 @@
+{
+  "generated_at": "2026-07-29T16:09:55.104626",
+  "total_files": 61,
+  "area_counts": {
+    "academic_integrity": 2,
+    "admissions_policy": 10,
+    "attendance_policy": 1,
+    "student_conduct": 5,
+    "general_policy": 10,
+    "grading_policy": 4,
+    "it_usage_policy": 8,
+    "library_policy": 2,
+    "research_policy": 4,
+    "scholarship_policy": 4,
+    "student_services": 7,
+    "tuition_fees": 4
+  },
+  "files": [
+    {
+      "file": "vinuni-academic-research-integrity-policy-vinuni-policy.md",
+      "doc_id": "vinuni-academic-research-integrity-policy-vinuni-policy",
+      "title": "Research Integrity Policy - VinUni Policy - VinUniversity",
+      "policy_area": "academic_integrity",
+      "source": "VinUniversity Official Website — Academic Integrity",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/research-integrity-policy",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "academic integrity",
+        "plagiarism",
+        "cheating",
+        "honesty",
+        "citation"
+      ],
+      "text_chars": 7766
+    },
+    {
+      "file": "vinuni-academic-student-academic-integrity-vinuni-policy.md",
+      "doc_id": "vinuni-academic-student-academic-integrity-vinuni-policy",
+      "title": "Student Academic Integrity - VinUni Policy",
+      "policy_area": "academic_integrity",
+      "source": "VinUniversity Official — Academic Integrity",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/student-academic-integrity",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "academic integrity",
+        "plagiarism",
+        "cheating",
+        "honesty",
+        "VinUniversity policy"
+      ],
+      "text_chars": 8808
+    },
+    {
+      "file": "vinuni-admissions-admission-criteria-admission.md",
+      "doc_id": "vinuni-admissions-admission-criteria-admission",
+      "title": "Admission Criteria - Admission",
+      "policy_area": "admissions_policy",
+      "source": "VinUniversity Official Website — Admissions Policy",
+      "source_url": "https://admissions.vinuni.edu.vn/undergraduate/apply-to-vinuni/first-year-applicants/admission-criteria",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "admissions",
+        "enrollment",
+        "requirements",
+        "tuyển sinh"
+      ],
+      "text_chars": 2058
+    },
+    {
+      "file": "vinuni-admissions-admissions-regulations-for-graduate-medi.md",
+      "doc_id": "vinuni-admissions-admissions-regulations-for-graduate-medi",
+      "title": "Admissions Regulations for Graduate Medical Education (GME) Programs - VinUni Policy",
+      "policy_area": "admissions_policy",
+      "source": "VinUniversity Official — Admissions Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/admissions-regulations-for-graduate-medical-education-programs",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "admissions",
+        "enrollment",
+        "requirements",
+        "tuyển sinh"
+      ],
+      "text_chars": 8838
+    },
+    {
+      "file": "vinuni-admissions-admissions-regulations-for-postgraduate.md",
+      "doc_id": "vinuni-admissions-admissions-regulations-for-postgraduate",
+      "title": "Admissions Regulations for Postgraduate Programs - VinUni Policy",
+      "policy_area": "admissions_policy",
+      "source": "VinUniversity Official — Admissions Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/admissions-regulations-for-postgraduate-programs",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "admissions",
+        "enrollment",
+        "requirements",
+        "tuyển sinh"
+      ],
+      "text_chars": 8676
+    },
+    {
+      "file": "vinuni-admissions-admissions-regulations-for-undergraduate.md",
+      "doc_id": "vinuni-admissions-admissions-regulations-for-undergraduate",
+      "title": "Admissions Regulations for Undergraduate Program - VinUni Policy",
+      "policy_area": "admissions_policy",
+      "source": "VinUniversity Official — Admissions Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/admissions-regulations-for-undergraduate-program",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "admissions",
+        "enrollment",
+        "requirements",
+        "tuyển sinh"
+      ],
+      "text_chars": 2260
+    },
+    {
+      "file": "vinuni-admissions-applying-for-ethical-review-at-vinuni-vi.md",
+      "doc_id": "vinuni-admissions-applying-for-ethical-review-at-vinuni-vi",
+      "title": "Applying for Ethical Review at VinUni - VinUniversity",
+      "policy_area": "admissions_policy",
+      "source": "VinUniversity Official Website — Admissions Policy",
+      "source_url": "https://research.vinuni.edu.vn/applying-for-ethical-review-at-vinuni",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "admissions",
+        "enrollment",
+        "requirements",
+        "tuyển sinh"
+      ],
+      "text_chars": 2565
+    },
+    {
+      "file": "vinuni-admissions-contact-vinuniversity-for-admission-and.md",
+      "doc_id": "vinuni-admissions-contact-vinuniversity-for-admission-and",
+      "title": "Contact VinUniversity for admission and support",
+      "policy_area": "admissions_policy",
+      "source": "VinUniversity Official Website — Admissions Policy",
+      "source_url": "https://vinuni.edu.vn/contact-us",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "admissions",
+        "enrollment",
+        "requirements",
+        "tuyển sinh"
+      ],
+      "text_chars": 2364
+    },
+    {
+      "file": "vinuni-admissions-english-language-requirements-for-underg.md",
+      "doc_id": "vinuni-admissions-english-language-requirements-for-underg",
+      "title": "English Language Requirements For Undergraduate Admissions - VinUni Policy",
+      "policy_area": "admissions_policy",
+      "source": "VinUniversity Official — Admissions Policy",
+      "source_url": "https://policy.vinuni.edu.vn/academic-affairs/english-language-requirements-for-undergraduate-admissions",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "admissions",
+        "enrollment",
+        "requirements",
+        "tuyển sinh"
+      ],
+      "text_chars": 8726
+    },
+    {
+      "file": "vinuni-admissions-homepage-vinuni.md",
+      "doc_id": "vinuni-admissions-homepage-vinuni",
+      "title": "Homepage - VinUni",
+      "policy_area": "admissions_policy",
+      "source": "VinUniversity Official Website — Admissions Policy",
+      "source_url": "https://vinuni.edu.vn/admissions/",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "admissions",
+        "enrollment",
+        "requirements",
+        "tuyển sinh"
+      ],
+      "text_chars": 3604
+    },
+    {
+      "file": "vinuni-admissions-key-admission-deadlines-admission.md",
+      "doc_id": "vinuni-admissions-key-admission-deadlines-admission",
+      "title": "Key Admission Deadlines - Admission",
+      "policy_area": "admissions_policy",
+      "source": "VinUniversity Official Website — Admissions Policy",
+      "source_url": "https://admissions.vinuni.edu.vn/undergraduate/key-dates",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "admissions",
+        "enrollment",
+        "requirements",
+        "tuyển sinh"
+      ],
+      "text_chars": 4766
+    },
+    {
+      "file": "vinuni-admissions-vinuniversity-admissions.md",
+      "doc_id": "vinuni-admissions-vinuniversity-admissions",
+      "title": "VinUniversity Admissions",
+      "policy_area": "admissions_policy",
+      "source": "VinUniversity Official — Admissions Policy",
+      "source_url": "https://admissions.vinuni.edu.vn",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "admissions",
+        "enrollment",
+        "requirements",
+        "tuyển sinh"
+      ],
+      "text_chars": 7273
+    },
+    {
+      "file": "vinuni-attendance-attendance-policy-at-medical-doctor-prog.md",
+      "doc_id": "vinuni-attendance-attendance-policy-at-medical-doctor-prog",
+      "title": "Attendance Policy at Medical Doctor Program - VinUni Policy",
+      "policy_area": "attendance_policy",
+      "source": "VinUniversity Official — Attendance Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/attendance-policy-at-medical-doctor-program",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "attendance",
+        "absence",
+        "participation",
+        "VinUniversity"
+      ],
+      "text_chars": 5965
+    },
+    {
+      "file": "vinuni-conduct-appendix-iv-procedure-for-student-code-o.md",
+      "doc_id": "vinuni-conduct-appendix-iv-procedure-for-student-code-o",
+      "title": "appendix iv. procedure for student code of conduct incidents",
+      "policy_area": "student_conduct",
+      "source": "VinUniversity Official — Student Conduct",
+      "source_url": "https://policy.vinuni.edu.vn/wp-content/uploads/2025/12/Appendix-IV-Procedure-for-Student-Code-of-Conduct-Incidents-and-Forms_EN.pdf",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "student conduct",
+        "code of conduct",
+        "discipline",
+        "VinUniversity"
+      ],
+      "text_chars": 3153
+    },
+    {
+      "file": "vinuni-conduct-employees-code-of-conduct-vinuni-policy.md",
+      "doc_id": "vinuni-conduct-employees-code-of-conduct-vinuni-policy",
+      "title": "Employees Code of Conduct - VinUni Policy",
+      "policy_area": "student_conduct",
+      "source": "VinUniversity Official Website — Student Conduct",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/code-of-conduct",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "student conduct",
+        "discipline",
+        "behavior",
+        "code of conduct",
+        "violation"
+      ],
+      "text_chars": 1855
+    },
+    {
+      "file": "vinuni-conduct-sexual-misconduct-and-response-vinuni-po.md",
+      "doc_id": "vinuni-conduct-sexual-misconduct-and-response-vinuni-po",
+      "title": "Sexual Misconduct and Response - VinUni Policy",
+      "policy_area": "student_conduct",
+      "source": "VinUniversity Official — Student Conduct",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/sexual-misconduct-and-response",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "student conduct",
+        "code of conduct",
+        "discipline",
+        "VinUniversity"
+      ],
+      "text_chars": 8856
+    },
+    {
+      "file": "vinuni-conduct-student-code-of-conduct-vinuni-policy-vi.md",
+      "doc_id": "vinuni-conduct-student-code-of-conduct-vinuni-policy-vi",
+      "title": "Student Code of Conduct - VinUni Policy - VinUniversity",
+      "policy_area": "student_conduct",
+      "source": "VinUniversity Official Website — Student Conduct",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/student-affairs-regulations-code-of-conduct",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "student conduct",
+        "discipline",
+        "behavior",
+        "code of conduct",
+        "violation"
+      ],
+      "text_chars": 7739
+    },
+    {
+      "file": "vinuni-conduct-student-incident-case-if-the-complainant.md",
+      "doc_id": "vinuni-conduct-student-incident-case-if-the-complainant",
+      "title": "Student Incident Case (if the Complainant and the ...",
+      "policy_area": "student_conduct",
+      "source": "VinUniversity Official — Student Services",
+      "source_url": "https://policy.vinuni.edu.vn/wp-content/uploads/2023/06/Appendix-1.A-Student-Incident-Case-1.pdf",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "student conduct",
+        "discipline",
+        "code of conduct",
+        "VinUniversity"
+      ],
+      "text_chars": 5690
+    },
+    {
+      "file": "vinuni-general-2027-academic-calendar.md",
+      "doc_id": "vinuni-general-2027-academic-calendar",
+      "title": "2027 academic calendar",
+      "policy_area": "general_policy",
+      "source": "VinUniversity Official — General Policy",
+      "source_url": "https://policy.vinuni.edu.vn/wp-content/uploads/2025/06/VinUni-Academic-Calendar.pdf",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "VinUniversity",
+        "policy",
+        "regulation"
+      ],
+      "text_chars": 3100
+    },
+    {
+      "file": "vinuni-general-academic-regulations-for-full-time-under.md",
+      "doc_id": "vinuni-general-academic-regulations-for-full-time-under",
+      "title": "Academic Regulations for Full-Time Undergraduate Programs",
+      "policy_area": "general_policy",
+      "source": "VinUniversity Official — General Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/academic-regulations-for-full-time-undergraduate-programs",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "VinUniversity",
+        "policy",
+        "regulation"
+      ],
+      "text_chars": 8736
+    },
+    {
+      "file": "vinuni-general-academic-regulations-for-graduate-medica.md",
+      "doc_id": "vinuni-general-academic-regulations-for-graduate-medica",
+      "title": "Academic Regulations for Graduate Medical Education (GME)",
+      "policy_area": "general_policy",
+      "source": "VinUniversity Official — General Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/academic-regulations-for-graduate-medical-education",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "VinUniversity",
+        "policy",
+        "regulation"
+      ],
+      "text_chars": 8859
+    },
+    {
+      "file": "vinuni-general-academic-regulations-for-master-programs.md",
+      "doc_id": "vinuni-general-academic-regulations-for-master-programs",
+      "title": "Academic Regulations for Master Programs - VinUni Policy",
+      "policy_area": "general_policy",
+      "source": "VinUniversity Official — General Policy",
+      "source_url": "https://policy.vinuni.edu.vn/academic-affairs/academic-regulations-for-master-programs",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "VinUniversity",
+        "policy",
+        "regulation"
+      ],
+      "text_chars": 8857
+    },
+    {
+      "file": "vinuni-general-all-policies-vinuni-policy.md",
+      "doc_id": "vinuni-general-all-policies-vinuni-policy",
+      "title": "All Policies - VinUni Policy",
+      "policy_area": "general_policy",
+      "source": "VinUniversity Official — General Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "VinUniversity",
+        "policy",
+        "regulation"
+      ],
+      "text_chars": 2001
+    },
+    {
+      "file": "vinuni-general-governance-structure-and-management-of-m.md",
+      "doc_id": "vinuni-general-governance-structure-and-management-of-m",
+      "title": "Governance Structure and Management of Medical Doctor (MD) Program - VinUni Policy",
+      "policy_area": "general_policy",
+      "source": "VinUniversity Official — General Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/governance-structure-and-management-of-medical-doctor-program",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "VinUniversity",
+        "policy",
+        "regulation"
+      ],
+      "text_chars": 8651
+    },
+    {
+      "file": "vinuni-general-regulations-on-management-of-laboratorie.md",
+      "doc_id": "vinuni-general-regulations-on-management-of-laboratorie",
+      "title": "Regulations on Management of Laboratories - VinUni Policy",
+      "policy_area": "general_policy",
+      "source": "VinUniversity Official — General Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/regulations-on-management-of-laboratories",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "VinUniversity",
+        "policy",
+        "regulation"
+      ],
+      "text_chars": 8780
+    },
+    {
+      "file": "vinuni-general-undergraduate-student-guide.md",
+      "doc_id": "vinuni-general-undergraduate-student-guide",
+      "title": "UNDERGRADUATE STUDENT GUIDE",
+      "policy_area": "general_policy",
+      "source": "VinUniversity Official — Student Services",
+      "source_url": "https://vinuni.edu.vn/wp-content/uploads/2020/07/STUDENT-GUIDE-2024-2025.pdf",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "student services",
+        "health",
+        "wellbeing",
+        "counseling"
+      ],
+      "text_chars": 9000
+    },
+    {
+      "file": "vinuni-general-vinuni-governance-framework-guidelines.md",
+      "doc_id": "vinuni-general-vinuni-governance-framework-guidelines",
+      "title": "VinUni Governance Framework Guidelines",
+      "policy_area": "general_policy",
+      "source": "VinUniversity Official — General Policy",
+      "source_url": "https://policy.vinuni.edu.vn/governance-and-legal/vinuni-governance-framework-guidelines",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "VinUniversity",
+        "policy",
+        "regulation"
+      ],
+      "text_chars": 8457
+    },
+    {
+      "file": "vinuni-general-vinuniversity-diversity-equity-and-inclu.md",
+      "doc_id": "vinuni-general-vinuniversity-diversity-equity-and-inclu",
+      "title": "VinUniversity Diversity, Equity, and Inclusion (DEI) Policy - VinUni Policy",
+      "policy_area": "general_policy",
+      "source": "VinUniversity Official — General Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/vinuniversity-diversity-equity-and-inclusion-dei-policy/",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "DEI",
+        "diversity",
+        "equity",
+        "inclusion",
+        "VinUniversity"
+      ],
+      "text_chars": 7030
+    },
+    {
+      "file": "vinuni-grading-assessment-guideline-for-undergraduate-p.md",
+      "doc_id": "vinuni-grading-assessment-guideline-for-undergraduate-p",
+      "title": "Assessment Guideline for Undergraduate Programs at College of Health Sciences - VinUni Policy",
+      "policy_area": "grading_policy",
+      "source": "VinUniversity Official — Student Services",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/assessment-guideline-for-undergraduate-programs-at-college-of-health-sciences",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "grading",
+        "GPA",
+        "assessment",
+        "academic standing"
+      ],
+      "text_chars": 8844
+    },
+    {
+      "file": "vinuni-grading-exams-grades-registrar.md",
+      "doc_id": "vinuni-grading-exams-grades-registrar",
+      "title": "Exams & Grades - Registrar",
+      "policy_area": "grading_policy",
+      "source": "VinUniversity Official Website — Grading Policy",
+      "source_url": "https://registrar.vinuni.edu.vn/academics/exams-grades",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "grading",
+        "GPA",
+        "transcript",
+        "academic standing",
+        "pass fail"
+      ],
+      "text_chars": 1395
+    },
+    {
+      "file": "vinuni-grading-iu-kin-duy-tr-hc-bngh-tr-ti-chnh.md",
+      "doc_id": "vinuni-grading-iu-kin-duy-tr-hc-bngh-tr-ti-chnh",
+      "title": "ĐIỀU KIỆN DUY TRÌ HỌC BỔNG/HỖ TRỢ TÀI CHÍNH",
+      "policy_area": "grading_policy",
+      "source": "VinUniversity Official Website — Grading Policy",
+      "source_url": "https://vinuni.edu.vn/wp-content/uploads/2023/10/2023-2024-Dieu-kien-duy-tri-HB_HTTC-1.pdf",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "grading",
+        "GPA",
+        "transcript",
+        "academic standing",
+        "pass fail"
+      ],
+      "text_chars": 4243
+    },
+    {
+      "file": "vinuni-grading-procedure-for-undergraduate-graduation.md",
+      "doc_id": "vinuni-grading-procedure-for-undergraduate-graduation",
+      "title": "Procedure for Undergraduate Graduation Review and Degree Conferral at VinUniversity - VinUni Policy",
+      "policy_area": "grading_policy",
+      "source": "VinUniversity Official — Grading Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/procedure-for-undergraduate-graduation/",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "graduation",
+        "commencement",
+        "degree completion",
+        "undergraduate",
+        "VinUniversity"
+      ],
+      "text_chars": 9327
+    },
+    {
+      "file": "vinuni-it-chnh-sch-quy-nh-registrar.md",
+      "doc_id": "vinuni-it-chnh-sch-quy-nh-registrar",
+      "title": "Chính sách & Quy định - Registrar",
+      "policy_area": "it_usage_policy",
+      "source": "VinUniversity Official Website — It Usage Policy",
+      "source_url": "https://registrar.vinuni.edu.vn/vi/hoc-thuat-dich-vu/chinh-sach-quy-dinh",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "IT",
+        "technology",
+        "AI tools",
+        "software",
+        "acceptable use"
+      ],
+      "text_chars": 5031
+    },
+    {
+      "file": "vinuni-it-cng-thng-tin-sinh-vin-vinuni.md",
+      "doc_id": "vinuni-it-cng-thng-tin-sinh-vin-vinuni",
+      "title": "Cổng Thông Tin Sinh Viên - VinUni",
+      "policy_area": "it_usage_policy",
+      "source": "VinUniversity Official Website — It Usage Policy",
+      "source_url": "https://vinuni.edu.vn/vi/cong-thong-tin-sinh-vien-vi",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "IT",
+        "technology",
+        "AI tools",
+        "software",
+        "acceptable use"
+      ],
+      "text_chars": 3970
+    },
+    {
+      "file": "vinuni-it-general-regulations-on-information-secur.md",
+      "doc_id": "vinuni-it-general-regulations-on-information-secur",
+      "title": "General Regulations on Information Security - VinUni Policy",
+      "policy_area": "it_usage_policy",
+      "source": "VinUniversity Official — It Usage Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/general-regulations-on-information-security/",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "information security",
+        "IT",
+        "VSOC_IT04",
+        "VinUniversity"
+      ],
+      "text_chars": 1038
+    },
+    {
+      "file": "vinuni-it-guidelines-on-student-use-of-generative.md",
+      "doc_id": "vinuni-it-guidelines-on-student-use-of-generative",
+      "title": "Guidelines on Student Use of Generative Artificial Intelligence",
+      "policy_area": "it_usage_policy",
+      "source": "VinUniversity Official — Student Services",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/guidelines-on-student-use-of-generative-artificial-intelligence",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "IT",
+        "AI tools",
+        "GenAI",
+        "technology",
+        "VinUniversity"
+      ],
+      "text_chars": 8681
+    },
+    {
+      "file": "vinuni-it-library-access-services-policy-vinuni-po.md",
+      "doc_id": "vinuni-it-library-access-services-policy-vinuni-po",
+      "title": "Library Access & Services Policy - VinUni Policy",
+      "policy_area": "it_usage_policy",
+      "source": "VinUniversity Official Website — It Usage Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/library-policies-for-users",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "IT",
+        "technology",
+        "AI tools",
+        "software",
+        "acceptable use"
+      ],
+      "text_chars": 4469
+    },
+    {
+      "file": "vinuni-it-policy-regulations-registrar.md",
+      "doc_id": "vinuni-it-policy-regulations-registrar",
+      "title": "Policy & Regulations - Registrar",
+      "policy_area": "it_usage_policy",
+      "source": "VinUniversity Official Website — It Usage Policy",
+      "source_url": "https://registrar.vinuni.edu.vn/academics/policy-regulations",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "IT",
+        "technology",
+        "AI tools",
+        "software",
+        "acceptable use"
+      ],
+      "text_chars": 5087
+    },
+    {
+      "file": "vinuni-it-quy-ch-o-to-i-hc-h-chnh-quy-theo-h-thng.md",
+      "doc_id": "vinuni-it-quy-ch-o-to-i-hc-h-chnh-quy-theo-h-thng",
+      "title": "QUY CHẾ ĐÀO TẠO ĐẠI HỌC HỆ CHÍNH QUY THEO HỆ THỐNG TÍN ...",
+      "policy_area": "it_usage_policy",
+      "source": "VinUniversity Official Website — It Usage Policy",
+      "source_url": "https://policy.vinuni.edu.vn/wp-content/uploads/2024/05/VU_HT03.VN_QC-dao-tao-dai-hoc-he-chinh-quy-theo-he-thong-tin-chi.pdf",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "IT",
+        "technology",
+        "AI tools",
+        "software",
+        "acceptable use"
+      ],
+      "text_chars": 8000
+    },
+    {
+      "file": "vinuni-it-student-life-vinuni.md",
+      "doc_id": "vinuni-it-student-life-vinuni",
+      "title": "Student Life - VinUni",
+      "policy_area": "it_usage_policy",
+      "source": "VinUniversity Official Website — It Usage Policy",
+      "source_url": "https://vinuni.edu.vn/student_life/home",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "IT",
+        "technology",
+        "AI tools",
+        "software",
+        "acceptable use"
+      ],
+      "text_chars": 2992
+    },
+    {
+      "file": "vinuni-library-e-bookstore-library.md",
+      "doc_id": "vinuni-library-e-bookstore-library",
+      "title": "E-Bookstore - Library",
+      "policy_area": "library_policy",
+      "source": "VinUniversity Official Website — Library Policy",
+      "source_url": "https://library.vinuni.edu.vn/services/e-bookstore",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "library",
+        "resources",
+        "borrowing",
+        "database"
+      ],
+      "text_chars": 4102
+    },
+    {
+      "file": "vinuni-library-international-student-services-experienc.md",
+      "doc_id": "vinuni-library-international-student-services-experienc",
+      "title": "International Student Services - Experience VinUni",
+      "policy_area": "library_policy",
+      "source": "VinUniversity Official Website — Library Policy",
+      "source_url": "https://experience.vinuni.edu.vn/international-student/international-student-services",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "library",
+        "resources",
+        "borrowing",
+        "database"
+      ],
+      "text_chars": 913
+    },
+    {
+      "file": "vinuni-research-none.md",
+      "doc_id": "vinuni-research-none",
+      "title": "None",
+      "policy_area": "research_policy",
+      "source": "VinUniversity Official",
+      "source_url": "None",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "research",
+        "integrity",
+        "ethics",
+        "VinUniversity"
+      ],
+      "text_chars": 9134
+    },
+    {
+      "file": "vinuni-research-research-integrity-policy-records-of-cha.md",
+      "doc_id": "vinuni-research-research-integrity-policy-records-of-cha",
+      "title": "RESEARCH INTEGRITY POLICY Records of changes",
+      "policy_area": "research_policy",
+      "source": "VinUniversity Official — Academic Integrity",
+      "source_url": "https://policy.vinuni.edu.vn/wp-content/uploads/2025/10/POL-RMO-003-V1.0_VinUni_Research-Integrity-Policy_23.10.2025.pdf",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "research",
+        "integrity",
+        "ethics",
+        "VinUniversity"
+      ],
+      "text_chars": 9000
+    },
+    {
+      "file": "vinuni-research-research-integrity-policy.md",
+      "doc_id": "vinuni-research-research-integrity-policy",
+      "title": "Research Integrity Policy - VinUni Policy",
+      "policy_area": "research_policy",
+      "source": "VinUniversity Official — Research Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/research-integrity-policy/",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "research integrity",
+        "ethics",
+        "publication",
+        "VinUniversity",
+        "POL-RMO-003"
+      ],
+      "text_chars": 9254
+    },
+    {
+      "file": "vinuni-research-research-support-library.md",
+      "doc_id": "vinuni-research-research-support-library",
+      "title": "Research support - Library",
+      "policy_area": "research_policy",
+      "source": "VinUniversity Official Website — Research Policy",
+      "source_url": "https://library.vinuni.edu.vn/services/research-services",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "research",
+        "ethics",
+        "publication",
+        "intellectual property"
+      ],
+      "text_chars": 4020
+    },
+    {
+      "file": "vinuni-scholarship-guidelines-for-maintaining-entry-scholar.md",
+      "doc_id": "vinuni-scholarship-guidelines-for-maintaining-entry-scholar",
+      "title": "Guidelines for Maintaining Entry Scholarship and Financial Aid ...",
+      "policy_area": "scholarship_policy",
+      "source": "VinUniversity Official — Scholarship Policy",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/criteria-to-maintain-the-entry-scholarship-and-financial-aid-support",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "scholarship",
+        "financial aid",
+        "học bổng",
+        "VinUniversity"
+      ],
+      "text_chars": 7325
+    },
+    {
+      "file": "vinuni-scholarship-guidelines-for-student-financial-support.md",
+      "doc_id": "vinuni-scholarship-guidelines-for-student-financial-support",
+      "title": "GUIDELINES FOR STUDENT FINANCIAL SUPPORT REQUEST",
+      "policy_area": "scholarship_policy",
+      "source": "VinUniversity Official — Student Services",
+      "source_url": "https://policy.vinuni.edu.vn/wp-content/uploads/2024/09/GDL-FAO-001-V2.0_Guideline-for-Student-Financial-Support-Request_22.04.2025.pdf",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "scholarship",
+        "financial aid",
+        "học bổng",
+        "VinUniversity"
+      ],
+      "text_chars": 8278
+    },
+    {
+      "file": "vinuni-scholarship-quy-nh-duy-tr-hc-bng-u-vo-v-h-tr.md",
+      "doc_id": "vinuni-scholarship-quy-nh-duy-tr-hc-bng-u-vo-v-h-tr",
+      "title": "QUY ĐỊNH DUY TRÌ HỌC BỔNG ĐẦU VÀO VÀ HỖ TRỢ ...",
+      "policy_area": "scholarship_policy",
+      "source": "VinUniversity Official Website — Scholarship Policy",
+      "source_url": "https://policy.vinuni.edu.vn/wp-content/uploads/2025/09/GDL-SAM-004-V2.1_Tieu-chi-duy-tri-Hoc-bong-dau-vao-va-Ho-tro-tai-chinh_4.9.2025.pdf",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "scholarship",
+        "financial aid",
+        "merit",
+        "học bổng"
+      ],
+      "text_chars": 4494
+    },
+    {
+      "file": "vinuni-scholarship-scholarships-admission.md",
+      "doc_id": "vinuni-scholarship-scholarships-admission",
+      "title": "Scholarships - Admission",
+      "policy_area": "scholarship_policy",
+      "source": "VinUniversity Official Website — Scholarship Policy",
+      "source_url": "https://admissions.vinuni.edu.vn/scholarship-and-financial-aid/undergraduate-programs/scholarships",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "scholarship",
+        "financial aid",
+        "merit",
+        "học bổng"
+      ],
+      "text_chars": 4446
+    },
+    {
+      "file": "vinuni-services-emergency-response-guidelines-mental-hea.md",
+      "doc_id": "vinuni-services-emergency-response-guidelines-mental-hea",
+      "title": "Emergency Response Guidelines - VinUni Policy",
+      "policy_area": "student_services",
+      "source": "VinUniversity Official — Student Services",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/emergency-response-guidelines-mental-health-and-physical-health-learners-incidents/",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "emergency",
+        "mental health",
+        "physical health",
+        "safety",
+        "VinUniversity"
+      ],
+      "text_chars": 784
+    },
+    {
+      "file": "vinuni-services-guidance-for-fitness-to-study-procedures.md",
+      "doc_id": "vinuni-services-guidance-for-fitness-to-study-procedures",
+      "title": "Guidance for Fitness to Study Procedures - VinUni Policy",
+      "policy_area": "student_services",
+      "source": "VinUniversity Official — Student Services",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/guidance-for-fitness-to-study-procedures/",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "fitness to study",
+        "health",
+        "academic accommodation",
+        "VinUniversity"
+      ],
+      "text_chars": 6136
+    },
+    {
+      "file": "vinuni-services-outbound-student-exchange-procedure-vinu.md",
+      "doc_id": "vinuni-services-outbound-student-exchange-procedure-vinu",
+      "title": "Outbound Student Exchange Procedure - VinUni Policy",
+      "policy_area": "student_services",
+      "source": "VinUniversity Official — Student Services",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/outbound-student-exchange-procedure",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "student services",
+        "health",
+        "wellbeing",
+        "counseling"
+      ],
+      "text_chars": 8275
+    },
+    {
+      "file": "vinuni-services-regulations-on-management-of-laboratorie.md",
+      "doc_id": "vinuni-services-regulations-on-management-of-laboratorie",
+      "title": "Regulations on Management of Laboratories - VinUni Policy",
+      "policy_area": "student_services",
+      "source": "VinUniversity Official — Student Services",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/regulations-on-management-of-laboratories/",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "laboratory",
+        "lab management",
+        "safety",
+        "research",
+        "VinUniversity"
+      ],
+      "text_chars": 9272
+    },
+    {
+      "file": "vinuni-services-safe-and-supported-pregnancy-policy.md",
+      "doc_id": "vinuni-services-safe-and-supported-pregnancy-policy",
+      "title": "Safe and Supported Pregnancy Policy - VinUni Policy",
+      "policy_area": "student_services",
+      "source": "VinUniversity Official — Student Services",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/safe-and-supported-pregnancy-policy/",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "pregnancy",
+        "health",
+        "student support",
+        "VinUniversity"
+      ],
+      "text_chars": 9122
+    },
+    {
+      "file": "vinuni-services-study-visa-guidelines-for-international.md",
+      "doc_id": "vinuni-services-study-visa-guidelines-for-international",
+      "title": "Study Visa Guidelines for International Students - VinUni Policy",
+      "policy_area": "student_services",
+      "source": "VinUniversity Official — Student Services",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/study-visa-guidelines-for-international-students/",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "visa",
+        "international students",
+        "immigration",
+        "student services",
+        "VinUniversity"
+      ],
+      "text_chars": 9327
+    },
+    {
+      "file": "vinuni-services-vinuni-dormitory-room-allocation-princip.md",
+      "doc_id": "vinuni-services-vinuni-dormitory-room-allocation-princip",
+      "title": "VinUni Dormitory Room Allocation Principles - VinUni Policy",
+      "policy_area": "student_services",
+      "source": "VinUniversity Official — Student Services",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/vinuni-dormitory-room-allocation-principles-first-year-students-only/",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "dormitory",
+        "ký túc xá",
+        "housing",
+        "student services",
+        "VinUniversity"
+      ],
+      "text_chars": 482
+    },
+    {
+      "file": "vinuni-tuition-financial-regulations-and-tariff-for-stu.md",
+      "doc_id": "vinuni-tuition-financial-regulations-and-tariff-for-stu",
+      "title": "Financial Regulations and Tariff (for student) - VinUni Policy",
+      "policy_area": "tuition_fees",
+      "source": "VinUniversity Official — Student Services",
+      "source_url": "https://policy.vinuni.edu.vn/all-policies/financial-regulations-and-tariff-for-student-2",
+      "effective_date": "2024-09-01",
+      "crawled_at": "2026-07-29",
+      "tags": [
+        "tuition",
+        "fees",
+        "financial",
+        "học phí",
+        "VinUniversity"
+      ],
+      "text_chars": 6587
+    },
+    {
+      "file": "vinuni-tuition-hc-ph-hc-bng-v-h-tr-ti-chnh-admission.md",
+      "doc_id": "vinuni-tuition-hc-ph-hc-bng-v-h-tr-ti-chnh-admission",
+      "title": "Học phí, Học bổng, và Hỗ trợ Tài chính - Admission",
+      "policy_area": "tuition_fees",
+      "source": "VinUniversity Official Website — Tuition Fees",
+      "source_url": "https://admissions.vinuni.edu.vn/vi/dai-hoc/cau-hoi-thuong-gap/hoc-phi-hoc-bong-va-ho-tro-tai-chinh",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "tuition",
+        "fees",
+        "payment",
+        "financial",
+        "học phí"
+      ],
+      "text_chars": 5460
+    },
+    {
+      "file": "vinuni-tuition-quy-nh-ti-chnh-v-biu-ph-mc-lc.md",
+      "doc_id": "vinuni-tuition-quy-nh-ti-chnh-v-biu-ph-mc-lc",
+      "title": "QUY ĐỊNH TÀI CHÍNH VÀ BIỂU PHÍ MỤC LỤC",
+      "policy_area": "tuition_fees",
+      "source": "VinUniversity Official Website — Tuition Fees",
+      "source_url": "https://vinuni.edu.vn/wp-content/uploads/2023/09/Quy-dinh-tai-chinh-NH23-24.pdf",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "tuition",
+        "fees",
+        "payment",
+        "financial",
+        "học phí"
+      ],
+      "text_chars": 8000
+    },
+    {
+      "file": "vinuni-tuition-tuition-fee-and-financial-aids-admission.md",
+      "doc_id": "vinuni-tuition-tuition-fee-and-financial-aids-admission",
+      "title": "Tuition Fee and Financial Aids - Admission",
+      "policy_area": "tuition_fees",
+      "source": "VinUniversity Official Website — Tuition Fees",
+      "source_url": "https://admissions.vinuni.edu.vn/tuition-fee-and-financial-support",
+      "effective_date": "2024-09-01",
+      "crawled_at": "",
+      "tags": [
+        "tuition",
+        "fees",
+        "payment",
+        "financial",
+        "học phí"
+      ],
+      "text_chars": 5597
+    }
+  ]
+}
