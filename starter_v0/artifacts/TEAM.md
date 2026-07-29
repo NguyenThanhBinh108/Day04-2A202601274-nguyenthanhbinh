@@ -7,13 +7,13 @@
 
 ## 1. Thành viên & vai trò
 
-| STT | Họ và tên        | MSSV         | Role                                                        | Deliverable chính chịu trách nhiệm                                                  |
-| --- | ------------------- | ------------ | ----------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| 1   | Nguyễn Thanh Bình | 2A202601274  | **R1 — Team Lead / Prompt & Tool-Declaration Owner** | `system_prompt.md`, `tools.yaml`, chạy v0→v3, `version_log.csv`                 |
-| 2   | Trần Chí Vũ      | 2A202601044  | **R2 — Tool Engineer**                               | Tool mới (bắt buộc ≥1, bonus >3):`tool.py` + `TOOL.md` + đăng ký + quicktest |
-| 3   | Trịnh Hải Đăng  | 2A202601602  | **R3 — Eval Engineer / Failure Analyst**             | 10 case`eval_group.json`, đọc failure trace, `analysis/*.csv`                     |
-| 4   | Đỗ Văn Linh      | 2A202601190  | **R4 — UI & Deploy Engineer**                        | `app.py` (Streamlit), tool trace UI, deploy public URL, live chat                     |
-| 5   | Đỗ Thu Liễu      | 2A202601898  | **R5 — Evidence & Report Owner**                     | `REPORT.md` phần A + B, transcripts, rehearsal demo, gate nộp bài                  |
+| STT | Họ và tên        | MSSV        | Role                                                        | Deliverable chính chịu trách nhiệm                                                  |
+| --- | ------------------- | ----------- | ----------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| 1   | Nguyễn Thanh Bình | 2A202601274 | **R1 — Team Lead / Prompt & Tool-Declaration Owner** | `system_prompt.md`, `tools.yaml`, chạy v0→v3, `version_log.csv`                 |
+| 2   | Trần Chí Vũ      | 2A202601044 | **R2 — Tool Engineer**                               | Tool mới (bắt buộc ≥1, bonus >3):`tool.py` + `TOOL.md` + đăng ký + quicktest |
+| 3   | Trịnh Hải Đăng  | 2A202601602 | **R3 — Eval Engineer / Failure Analyst**             | 10 case`eval_group.json`, đọc failure trace, `analysis/*.csv`                     |
+| 4   | Đỗ Văn Linh      | 2A202601190 | **R4 — UI & Deploy Engineer**                        | `app.py` (Streamlit), tool trace UI, deploy public URL, live chat                     |
+| 5   | Đỗ Thu Liễu      | 2A202601898 | **R5 — Evidence & Report Owner**                     | `REPORT.md` phần A + B, transcripts, rehearsal demo, gate nộp bài                  |
 
 **Tên nhóm:** ______________________  **Provider/model:** `openrouter` / `openai/gpt-4o-mini` (xác nhận lại sau preflight)
 
@@ -42,7 +42,7 @@ Mỗi file chỉ có **một** người được sửa. Cần đổi file của 
 
 ## 3. Phân công theo checkpoint K4 (14:00–18:00)
 
-| Thời gian   | Checkpoint              | R1 — Bình                                      | R2 — Liễu                                          | R3 — Vũ                                 | R4 — Đăng                              | R5 — Linh                                            |
+| Thời gian   | Checkpoint              | R1 — Bình                                      | R2 — Vũ                                            | R3 — Đăng                              | R4 — Linh                                | R5 — Liễu                                           |
 | ------------ | ----------------------- | ------------------------------------------------ | ---------------------------------------------------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------------------- |
 | 14:00–14:15 | Kickoff                 | Chốt role, mở`starter_v0/`                   | Đọc`tools/README.md`                             | Đọc`eval_base.json`                   | Đọc mục UI trong README                | Mở`REPORT.md`, lập checklist                      |
 | 14:15–14:40 | Setup                   | Chạy preflight provider                         | Điền`.env` tool keys (Tavily/Firecrawl/RapidAPI) | Xác nhận 20 case base load được      | Cài`streamlit`, dựng khung `app.py` | Điền mục Team ở`REPORT.md`                      |
@@ -82,7 +82,7 @@ Trạng thái: `⬜ chưa làm` / `🟡 đang làm` / `✅ xong`
 
 | #  | Hạng mục bắt buộc                   | Người phụ trách | Bằng chứng cần có                                                    | Trạng thái | Ghi chú |
 | -- | --------------------------------------- | ------------------- | ------------------------------------------------------------------------ | ------------ | -------- |
-| 1  | Setup + preflight provider PASS         | R1                  |                                                                          |              |          |
+| 1  | Setup + preflight provider PASS         | R1                  |                                                                          | Done         |          |
 | 2  | Baseline v0 chạy xong                  | R1                  | `runs/*v0*.json`                                                       |              |          |
 | 3  | v1 (1 hypothesis, 1 thay đổi)         | R1                  | run JSON + 1 dòng version_log                                           |              |          |
 | 4  | v2                                      | R1                  | run JSON + 1 dòng version_log                                           |              |          |

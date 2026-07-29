@@ -9,14 +9,27 @@
 tools:
   # ---------------- Core tools ----------------
   - name: clarify
-    description: "Gửi một câu hỏi cho người dùng."
+    description: >-
+      Hỏi lại người dùng khi chưa đủ điều kiện để hành động. Dùng trong hai tình huống:
+      (1) xin xác nhận yes/no trước một hành động gửi/đăng/publish ra ngoài;
+      (2) hỏi một giá trị bắt buộc còn thiếu (tài khoản, URL, chủ đề).
+      Nếu yêu cầu vừa là hành động publish vừa thiếu nội dung thì tình huống (1) thắng:
+      xin xác nhận trước, không hỏi nội dung trước.
     parameters:
       type: object
       properties:
         question: {type: string, default: "", description: "Câu hỏi"}
-        response_type: {type: string, enum: [text, yes_no, choice], default: "text", description: "Kiểu trả lời"}
+        response_type:
+          type: string
+          enum: [text, yes_no, choice]
+          default: "text"
+          description: >-
+            LUÔN ghi rõ trường này, không bao giờ bỏ trống.
+            yes_no = xin xác nhận cho hành động gửi/đăng/publish (kể cả khi nội dung còn thiếu).
+            text = hỏi một giá trị còn thiếu như screenname hoặc URL.
+            choice = đưa danh sách lựa chọn cố định.
         options: {type: array, default: [], items: {type: string}, description: "Các lựa chọn"}
-      required: [question]
+      required: [question, response_type]
 
   - name: timeline
     description: "Lấy các bài đăng gần đây."
@@ -79,12 +92,18 @@ tools:
 
   # ---------------- Bonus tools ----------------
   - name: send
-    description: "Gửi một đoạn văn bản đi."
+    description: >-
+      ACTION tool: đăng văn bản ra Telegram channel công khai bên ngoài cuộc hội thoại.
+      Đây KHÔNG phải cách trả lời người dùng — muốn trả lời thì viết thẳng, đừng gọi tool này.
+      Confirmation boundary: mọi yêu cầu gửi/đăng/publish đều phải xin xác nhận bằng
+      clarify(response_type="yes_no") TRƯỚC, kể cả khi nội dung cần gửi còn thiếu hoặc chưa rõ.
+      Quy tắc xác nhận này ưu tiên cao hơn quy tắc hỏi lại thông tin thiếu: hỏi "có đăng không?"
+      trước, không hỏi "nội dung là gì?". Chỉ gọi send sau khi người dùng đã đồng ý rõ ràng.
     parameters:
       type: object
       properties:
-        text: {type: string, default: "", description: "Nội dung"}
-        confirmed: {type: boolean, default: false, description: "Cờ xác nhận"}
+        text: {type: string, default: "", description: "Nội dung sẽ đăng công khai"}
+        confirmed: {type: boolean, default: false, description: "Chỉ đặt true sau khi người dùng đã trả lời đồng ý cho câu clarify(yes_no). Không bao giờ tự đặt true."}
       required: [text]
 
   - name: policy
