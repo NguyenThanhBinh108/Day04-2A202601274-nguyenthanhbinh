@@ -167,7 +167,17 @@ tools:
       type: object
       properties:
         query: {type: string, default: "", description: "Truy vấn"}
-        policy_area: {type: string, enum: [all, ai_research, source_citation, data_privacy, external_publishing, tool_usage], default: "all", description: "Nhóm"}
+        policy_area:
+          type: string
+          enum: [all, academic_integrity, student_conduct, academic_regulations, graduation,
+                 ai_research, source_citation, data_privacy, external_publishing, tool_usage]
+          default: "all"
+          description: >-
+            Nhóm quy định cần tra. Quy chế VinUni: academic_integrity (liêm chính học thuật, đạo văn,
+            gian lận), student_conduct (nội quy, quyền và nghĩa vụ, hành vi bị cấm, kỷ luật),
+            academic_regulations (học vụ: đăng ký học phần, điểm, GPA, thi, nghỉ học),
+            graduation (xét tốt nghiệp, cấp bằng, bảng điểm).
+            Dùng "all" khi chưa chắc thuộc nhóm nào.
         top_k: {type: integer, default: 3, description: "Số mục"}
       required: [query]
 
