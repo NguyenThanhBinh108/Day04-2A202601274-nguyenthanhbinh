@@ -8,11 +8,21 @@ Chạy: streamlit run app.py
 from __future__ import annotations
 
 import json
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
 
 import streamlit as st
+
+# Trên Windows, stdout của tiến trình Streamlit dùng codec cp1252. run_model_tool_loop
+# trong chat.py in emoji 🔧 mỗi khi log một tool call, khiến cả lượt chat chết vì
+# UnicodeEncodeError. Ép stdout/stderr về UTF-8 trước khi gọi loop.
+for _stream in (sys.stdout, sys.stderr):
+    try:
+        _stream.reconfigure(encoding="utf-8", errors="replace")
+    except (AttributeError, ValueError):
+        pass
 
 from env_loader import load_lab_env
 from providers import make_provider
