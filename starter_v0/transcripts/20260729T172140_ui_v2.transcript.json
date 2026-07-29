@@ -1,0 +1,47 @@
+{
+  "version": "v2",
+  "artifact_version": "v2+p0f4b2f69c38a+tc633152aa8ca",
+  "provider": "gemini",
+  "timestamp": "20260729T172140",
+  "query": "Thời tiết Hà Nội hôm nay?",
+  "assistant_text": "Thời tiết tại Hà Nội hôm nay hiện tại khá nhiều mây (Overcast) với nhiệt độ khoảng 28°C (cảm giác thực tế như 33.8°C do độ ẩm cao, khoảng 86%). Gió nhẹ khoảng 8.4 km/h.\n\nDự báo trong ngày hôm nay sẽ có dông bão (Thunderstorm) với nhiệt độ dao động từ 24.1°C đến 29.9°C, lượng mưa dự kiến khá lớn (khoảng 21.6 mm). Bạn nên mang theo ô hoặc áo mưa khi ra ngoài nhé!",
+  "tool_events": [
+    {
+      "tool": "weather",
+      "args": {
+        "days": 1,
+        "location": "Hà Nội"
+      },
+      "result": {
+        "location": "Hà Nội, Vietnam",
+        "latitude": 20.47366,
+        "longitude": 106.02292,
+        "timezone": "Asia/Bangkok",
+        "current": {
+          "temperature_c": 28.0,
+          "feels_like_c": 33.8,
+          "humidity_pct": 86,
+          "wind_speed_kmh": 8.4,
+          "precipitation_mm": 0.0,
+          "weather_code": 3,
+          "weather_description": "Overcast"
+        },
+        "forecast": [
+          {
+            "date": "2026-07-29",
+            "temp_max_c": 29.9,
+            "temp_min_c": 24.1,
+            "precipitation_sum_mm": 21.6,
+            "weather_code": 95,
+            "weather_description": "Thunderstorm"
+          }
+        ],
+        "error": null,
+        "message": "Weather data for Hà Nội, Vietnam fetched successfully"
+      }
+    }
+  ],
+  "rounds": 2,
+  "status": "answered",
+  "elapsed_s": 9.07
+}

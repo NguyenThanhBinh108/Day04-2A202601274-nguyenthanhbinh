@@ -1,0 +1,12 @@
+{
+  "version": "v2",
+  "artifact_version": "v2+p0f4b2f69c38a+tc633152aa8ca",
+  "provider": "gemini",
+  "timestamp": "20260729T172121",
+  "query": "hi",
+  "assistant_text": "Chào bạn! Mình có thể giúp gì cho bạn hôm nay? Bạn có thể yêu cầu mình tìm kiếm tin tức, tra cứu tài liệu nghiên cứu (arXiv), tìm bài đăng trên Twitter/X, hoặc tra cứu quy chế của VinUni nhé.",
+  "tool_events": [],
+  "rounds": 1,
+  "status": "answered",
+  "elapsed_s": 5.87
+}
