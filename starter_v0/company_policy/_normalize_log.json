@@ -1,0 +1,326 @@
+{
+  "deleted_noise": [
+    "tavily-general_poli-bachelor-of-arts-in-psychology.md",
+    "tavily-general_poli-curriculum-framework---bachelo.md",
+    "tavily-general_poli-curriculum-structure---vinuni-.md",
+    "tavily-general_poli-home---experience-vinuni.md",
+    "tavily-general_poli-integrated-degree-program-over.md",
+    "tavily-general_poli-integrated-degree-programs-pro.md",
+    "tavily-it_usage_pol-curriculum-framework---medical.md",
+    "tavily-it_usage_pol-curriculum-framework---vinuni-.md",
+    "tavily-it_usage_pol-home-page---families-and-paren.md",
+    "vinuni-it_usage_policy-51.md"
+  ],
+  "reclassified": [
+    {
+      "file": "tavily-academic_int-research-integrity-policy---vi.md",
+      "from": "?",
+      "to": "research_policy"
+    },
+    {
+      "file": "tavily-academic_int-research-integrity-policy-reco.md",
+      "from": "academic_integrity",
+      "to": "research_policy"
+    },
+    {
+      "file": "tavily-general_poli-absence-form-md-program---vinu.md",
+      "from": "?",
+      "to": "attendance_policy"
+    },
+    {
+      "file": "tavily-it_usage_pol-policy---regulations---academi.md",
+      "from": "?",
+      "to": "general_policy"
+    },
+    {
+      "file": "tavily-scholarship_-cohort-2025---vingroup-scholar.md",
+      "from": "?",
+      "to": "scholarship_policy"
+    },
+    {
+      "file": "tavily-student_serv-assessment-guideline-for-under.md",
+      "from": "student_services",
+      "to": "grading_policy"
+    },
+    {
+      "file": "tavily-student_serv-financial-regulations-and-tari.md",
+      "from": "student_services",
+      "to": "tuition_fees"
+    },
+    {
+      "file": "tavily-student_serv-guidelines-for-student-financi.md",
+      "from": "student_services",
+      "to": "scholarship_policy"
+    },
+    {
+      "file": "tavily-student_serv-guidelines-on-student-use-of-g.md",
+      "from": "student_services",
+      "to": "it_usage_policy"
+    },
+    {
+      "file": "tavily-student_serv-student-affairs---vinuni-polic.md",
+      "from": "?",
+      "to": "general_policy"
+    },
+    {
+      "file": "tavily-student_serv-student-archives---vinuni-poli.md",
+      "from": "?",
+      "to": "general_policy"
+    },
+    {
+      "file": "tavily-student_serv-student-incident-case--if-the-.md",
+      "from": "student_services",
+      "to": "student_conduct"
+    },
+    {
+      "file": "tavily-student_serv-undergraduate-student-guide.md",
+      "from": "student_services",
+      "to": "general_policy"
+    }
+  ],
+  "dedup_deleted": [
+    "vinuni-academic_integrity-80.md",
+    "vinuni-academic_integrity-82.md",
+    "tavily-student_cond-student-code-of-conduct---vinu.md",
+    "tavily-scholarship_-cohort-2025---vingroup-scholar.md",
+    "tavily-it_usage_pol-policy---regulations---academi.md",
+    "tavily-student_serv-student-archives---vinuni-poli.md",
+    "tavily-general_poli-all-policies---vinuni-policy.md",
+    "tavily-general_poli-academic-affairs---vinuni-poli.md",
+    "tavily-student_serv-student-affairs---vinuni-polic.md",
+    "tavily-general_poli-absence-form-md-program---vinu.md",
+    "vinuni-academic_integrity-81.md",
+    "vinuni-academic_integrity-84.md",
+    "vinuni-admissions_policy-84.md",
+    "vinuni-attendance_policy-80.md",
+    "vinuni-it_usage_policy-88.md",
+    "vinuni-it_usage_policy-90.md",
+    "vinuni-tuition_fees-82.md",
+    "vinuni-academic_integrity-83.md",
+    "vinuni-it_usage_policy-89.md",
+    "vinuni-admissions_policy-85.md",
+    "vinuni-it_usage_policy-91.md",
+    "vinuni-student_conduct-83.md"
+  ],
+  "renamed": [
+    {
+      "old": "official-academic_int-student-academic-integrity-pol.md",
+      "new": "vinuni-academic-student-academic-integrity-vinuni-policy.md"
+    },
+    {
+      "old": "official-general_poli-all-vinuniversity-policies.md",
+      "new": "vinuni-general-all-policies-vinuni-policy.md"
+    },
+    {
+      "old": "tavily-academic_int-research-integrity-policy---vi.md",
+      "new": "vinuni-research-none.md"
+    },
+    {
+      "old": "tavily-academic_int-research-integrity-policy-reco.md",
+      "new": "vinuni-research-research-integrity-policy-records-of-cha.md"
+    },
+    {
+      "old": "tavily-admissions_p-admissions-regulations-for-gra.md",
+      "new": "vinuni-admissions-admissions-regulations-for-graduate-medi.md"
+    },
+    {
+      "old": "tavily-admissions_p-admissions-regulations-for-pos.md",
+      "new": "vinuni-admissions-admissions-regulations-for-postgraduate.md"
+    },
+    {
+      "old": "tavily-admissions_p-admissions-regulations-for-und.md",
+      "new": "vinuni-admissions-admissions-regulations-for-undergraduate.md"
+    },
+    {
+      "old": "tavily-admissions_p-english-language-requirements-.md",
+      "new": "vinuni-admissions-english-language-requirements-for-underg.md"
+    },
+    {
+      "old": "tavily-admissions_p-vinuniversity-admissions.md",
+      "new": "vinuni-admissions-vinuniversity-admissions.md"
+    },
+    {
+      "old": "tavily-attendance_p-attendance-policy-at-medical-d.md",
+      "new": "vinuni-attendance-attendance-policy-at-medical-doctor-prog.md"
+    },
+    {
+      "old": "tavily-general_poli-2027-academic-calendar.md",
+      "new": "vinuni-general-2027-academic-calendar.md"
+    },
+    {
+      "old": "tavily-general_poli-academic-regulations-for-full-.md",
+      "new": "vinuni-general-academic-regulations-for-full-time-under.md"
+    },
+    {
+      "old": "tavily-general_poli-academic-regulations-for-gradu.md",
+      "new": "vinuni-general-academic-regulations-for-graduate-medica.md"
+    },
+    {
+      "old": "tavily-general_poli-academic-regulations-for-maste.md",
+      "new": "vinuni-general-academic-regulations-for-master-programs.md"
+    },
+    {
+      "old": "tavily-general_poli-governance-structure-and-manag.md",
+      "new": "vinuni-general-governance-structure-and-management-of-m.md"
+    },
+    {
+      "old": "tavily-general_poli-regulations-on-management-of-l.md",
+      "new": "vinuni-general-regulations-on-management-of-laboratorie.md"
+    },
+    {
+      "old": "tavily-general_poli-vinuni-governance-framework-gu.md",
+      "new": "vinuni-general-vinuni-governance-framework-guidelines.md"
+    },
+    {
+      "old": "tavily-scholarship_-guidelines-for-maintaining-ent.md",
+      "new": "vinuni-scholarship-guidelines-for-maintaining-entry-scholar.md"
+    },
+    {
+      "old": "tavily-student_cond-appendix-iv--procedure-for-stu.md",
+      "new": "vinuni-conduct-appendix-iv-procedure-for-student-code-o.md"
+    },
+    {
+      "old": "tavily-student_cond-sexual-misconduct-and-response.md",
+      "new": "vinuni-conduct-sexual-misconduct-and-response-vinuni-po.md"
+    },
+    {
+      "old": "tavily-student_serv-assessment-guideline-for-under.md",
+      "new": "vinuni-grading-assessment-guideline-for-undergraduate-p.md"
+    },
+    {
+      "old": "tavily-student_serv-financial-regulations-and-tari.md",
+      "new": "vinuni-tuition-financial-regulations-and-tariff-for-stu.md"
+    },
+    {
+      "old": "tavily-student_serv-guidelines-for-student-financi.md",
+      "new": "vinuni-scholarship-guidelines-for-student-financial-support.md"
+    },
+    {
+      "old": "tavily-student_serv-guidelines-on-student-use-of-g.md",
+      "new": "vinuni-it-guidelines-on-student-use-of-generative.md"
+    },
+    {
+      "old": "tavily-student_serv-outbound-student-exchange-proc.md",
+      "new": "vinuni-services-outbound-student-exchange-procedure-vinu.md"
+    },
+    {
+      "old": "tavily-student_serv-student-incident-case--if-the-.md",
+      "new": "vinuni-conduct-student-incident-case-if-the-complainant.md"
+    },
+    {
+      "old": "tavily-student_serv-undergraduate-student-guide.md",
+      "new": "vinuni-general-undergraduate-student-guide.md"
+    },
+    {
+      "old": "vinuni-academic_integrity-85.md",
+      "new": "vinuni-academic-research-integrity-policy-vinuni-policy.md"
+    },
+    {
+      "old": "vinuni-admissions_policy-50.md",
+      "new": "vinuni-admissions-homepage-vinuni.md"
+    },
+    {
+      "old": "vinuni-admissions_policy-81.md",
+      "new": "vinuni-admissions-key-admission-deadlines-admission.md"
+    },
+    {
+      "old": "vinuni-admissions_policy-82.md",
+      "new": "vinuni-admissions-applying-for-ethical-review-at-vinuni-vi.md"
+    },
+    {
+      "old": "vinuni-admissions_policy-83.md",
+      "new": "vinuni-admissions-admission-criteria-admission.md"
+    },
+    {
+      "old": "vinuni-admissions_policy-87.md",
+      "new": "vinuni-admissions-contact-vinuniversity-for-admission-and.md"
+    },
+    {
+      "old": "vinuni-grading_policy-80.md",
+      "new": "vinuni-grading-exams-grades-registrar.md"
+    },
+    {
+      "old": "vinuni-grading_policy-81.md",
+      "new": "vinuni-grading-iu-kin-duy-tr-hc-bngh-tr-ti-chnh.md"
+    },
+    {
+      "old": "vinuni-it_usage_policy-86.md",
+      "new": "vinuni-it-policy-regulations-registrar.md"
+    },
+    {
+      "old": "vinuni-it_usage_policy-93.md",
+      "new": "vinuni-it-library-access-services-policy-vinuni-po.md"
+    },
+    {
+      "old": "vinuni-it_usage_policy-94.md",
+      "new": "vinuni-it-student-life-vinuni.md"
+    },
+    {
+      "old": "vinuni-it_usage_policy-95.md",
+      "new": "vinuni-it-chnh-sch-quy-nh-registrar.md"
+    },
+    {
+      "old": "vinuni-it_usage_policy-96.md",
+      "new": "vinuni-it-quy-ch-o-to-i-hc-h-chnh-quy-theo-h-thng.md"
+    },
+    {
+      "old": "vinuni-it_usage_policy-97.md",
+      "new": "vinuni-it-cng-thng-tin-sinh-vin-vinuni.md"
+    },
+    {
+      "old": "vinuni-library_policy-80.md",
+      "new": "vinuni-library-e-bookstore-library.md"
+    },
+    {
+      "old": "vinuni-library_policy-81.md",
+      "new": "vinuni-library-international-student-services-experienc.md"
+    },
+    {
+      "old": "vinuni-research_policy-80.md",
+      "new": "vinuni-research-research-support-library.md"
+    },
+    {
+      "old": "vinuni-scholarship_policy-81.md",
+      "new": "vinuni-scholarship-scholarships-admission.md"
+    },
+    {
+      "old": "vinuni-scholarship_policy-83.md",
+      "new": "vinuni-scholarship-quy-nh-duy-tr-hc-bng-u-vo-v-h-tr.md"
+    },
+    {
+      "old": "vinuni-student_conduct-81.md",
+      "new": "vinuni-conduct-student-code-of-conduct-vinuni-policy-vi.md"
+    },
+    {
+      "old": "vinuni-student_conduct-82.md",
+      "new": "vinuni-conduct-employees-code-of-conduct-vinuni-policy.md"
+    },
+    {
+      "old": "vinuni-tuition_fees-81.md",
+      "new": "vinuni-tuition-tuition-fee-and-financial-aids-admission.md"
+    },
+    {
+      "old": "vinuni-tuition_fees-83.md",
+      "new": "vinuni-tuition-quy-nh-ti-chnh-v-biu-ph-mc-lc.md"
+    },
+    {
+      "old": "vinuni-tuition_fees-84.md",
+      "new": "vinuni-tuition-hc-ph-hc-bng-v-h-tr-ti-chnh-admission.md"
+    }
+  ],
+  "final_count": 51,
+  "areas": {
+    "academic_integrity": 2,
+    "admissions_policy": 10,
+    "attendance_policy": 1,
+    "student_conduct": 5,
+    "general_policy": 9,
+    "grading_policy": 3,
+    "it_usage_policy": 7,
+    "library_policy": 2,
+    "research_policy": 3,
+    "scholarship_policy": 4,
+    "student_services": 1,
+    "tuition_fees": 4
+  }
+}
