@@ -90,6 +90,61 @@ tools:
         headline: {type: string, default: "", description: "Tiêu đề"}
       required: [items, template]
 
+  # ---------------- Team tools (custom) ----------------
+  - name: policy_deep_search
+    description: >-
+      Tìm trong tài liệu nội bộ VinUni (company_policy), giống policy nhưng chia nhỏ theo
+      đoạn văn thay vì cắt cứng 1000 ký tự — dùng khi cần trích một đoạn/điều khoản cụ thể
+      trong văn bản dài, hoặc khi policy trả kết quả rỗng/thiếu cho một tài liệu không có
+      heading "## ".
+    parameters:
+      type: object
+      properties:
+        query: {type: string, default: "", description: "Truy vấn"}
+        policy_area: {type: string, enum: [all, general_policy, admissions_policy, it_usage_policy, student_services, student_conduct, tuition_fees, scholarship_policy, research_policy, grading_policy, academic_integrity, library_policy, attendance_policy, ai_research, source_citation, external_publishing, data_privacy, tool_usage], default: "all", description: "Nhóm chính sách"}
+        top_k: {type: integer, default: 5, description: "Số đoạn trả về"}
+        max_chars: {type: integer, default: 800, description: "Độ dài tối đa mỗi đoạn (ký tự)"}
+      required: [query]
+
+  - name: policy_semantic_search
+    description: >-
+      Tìm trong tài liệu nội bộ VinUni bằng xếp hạng TF-IDF/cosine similarity thay vì khớp
+      từ khóa thuần. Ưu tiên dùng khi câu hỏi diễn đạt khác từ khóa gốc trong tài liệu
+      (đồng nghĩa, viết lại) và policy/policy_deep_search có thể trả về rỗng.
+    parameters:
+      type: object
+      properties:
+        query: {type: string, default: "", description: "Truy vấn"}
+        policy_area: {type: string, enum: [all, general_policy, admissions_policy, it_usage_policy, student_services, student_conduct, tuition_fees, scholarship_policy, research_policy, grading_policy, academic_integrity, library_policy, attendance_policy, ai_research, source_citation, external_publishing, data_privacy, tool_usage], default: "all", description: "Nhóm chính sách"}
+        top_k: {type: integer, default: 5, description: "Số kết quả trả về"}
+      required: [query]
+
+  - name: policy_deadline
+    description: >-
+      Trích ngày/hạn chót dạng có cấu trúc (date_text, iso_start, iso_end, event) từ các
+      tài liệu lịch/hạn chót nội bộ (academic calendar, admission deadlines). Dùng cho câu
+      hỏi kiểu "khi nào hạn nộp hồ sơ" thay vì trả nguyên đoạn văn bản dài.
+    parameters:
+      type: object
+      properties:
+        query: {type: string, default: "", description: "Từ khóa lọc sự kiện (để trống = liệt kê tất cả)"}
+        top_k: {type: integer, default: 15, description: "Số sự kiện trả về"}
+      required: []
+
+  - name: policy_compare
+    description: >-
+      So sánh nội dung giữa hai nhóm policy_area hoặc hai doc_id cụ thể, trả kết quả hai
+      bên song song. Dùng khi câu hỏi nằm ở vùng chồng lấn giữa hai nhóm (vd học bổng xuất
+      hiện cả ở tuition_fees và scholarship_policy) và không chắc nên tra ở đâu.
+    parameters:
+      type: object
+      properties:
+        query: {type: string, default: "", description: "Truy vấn (để trống = liệt kê nội dung nổi bật mỗi bên)"}
+        area_a: {type: string, default: "", description: "policy_area hoặc doc_id thứ nhất"}
+        area_b: {type: string, default: "", description: "policy_area hoặc doc_id thứ hai"}
+        top_k: {type: integer, default: 3, description: "Số kết quả mỗi bên"}
+      required: [area_a, area_b]
+
   # ---------------- Bonus tools ----------------
   - name: send
     description: >-
